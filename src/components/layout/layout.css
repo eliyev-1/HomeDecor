@@ -1,0 +1,245 @@
+.nav {
+  display: flex;
+  width: 100%;
+
+  flex-direction: column;
+  gap: 2.7rem;
+  margin-top: 1.8rem;
+}
+.navTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 3rem;
+}
+.navTop__left__language{
+  padding: 0.7rem;
+  border: 1px solid var( --color--grey-light);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.navTop__logo__active{
+    display: none;
+}
+.navTop__right_menuIcon,.navTop__right_exitIcon {
+  display: none;
+}
+.navTop__right_menuIcon__active{
+    display: none;
+}
+.navTop__right_exitIcon__active{
+    display: block;
+}
+.navTop__right__active{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    order: -1;
+}
+.navBottom {
+  display: flex;
+  justify-content: center;
+}
+.navBottom > ul {
+  gap: 7rem;
+}
+
+.navTop__left,
+.navTop__right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.navTop__right__exitIcon {
+  display: none;
+}
+
+.navTop__left__searchIcon,
+.navTop__right_menuIcon,
+.navTop__right__cartIcon,
+.navTop__right__personIcon,
+.searchOurStore__searchIcon,
+.searchOurStore__exitIcon {
+  font-size: 2.4rem;
+  cursor: pointer;
+}
+.searchOurStore__opacityBackground {
+  z-index: 1111;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.link__cartIcon{
+  position: relative;
+  
+}
+.navTop__right__cartIcon span{
+  position: absolute;
+  transform: translate(30%,-50%);
+  top: 0;
+  right: 0%;
+  background-color: black;
+  color:white;
+  border-radius: 100%;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.searchOurStore {
+  width: 100%;
+  background-color: var(--color-white-grey);
+  padding: 1.5rem 0;
+}
+.searchOurStore > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.searchOurStore__searchIcon,
+.searchOurStore__exitIcon {
+  cursor: pointer;
+}
+
+.searchOurStore__input,
+.searchOurStore__input input {
+  width: 100%;
+  background-color: var(--color-white-grey);
+}
+.searchOurStore__input>input{
+  border: none;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  column-gap: 10rem;
+  text-align: start;
+  row-gap: 20px;
+  margin-top: 15rem;
+  padding:  2rem ;
+}
+.footer__logo {
+  max-width: 28.8rem;
+
+  margin-right: 16.5rem;
+}
+.footer__text {
+  max-width: 24rem;
+ 
+}
+.footer__logo > img {
+  height: auto !important;
+}
+
+.footer__number,
+.footer__email {
+  text-align: center;
+  width: max-content;
+}
+@media (max-width: 1300px) {
+    .nav{
+        padding: 0 2rem;
+    }
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 2rem;
+  }
+  .footer__logo {
+    width: 28.8rem;
+
+    margin-right: 10rem;
+  }
+}
+@media (max-width: 1000px) {
+  .footer {
+    grid-template-columns: auto auto;
+    color: var(--color-grey);
+  }
+  .footer__logo {
+    margin-right: 5rem;
+  }
+}
+@media (max-width: 750px) {
+    .searchOurStore>.container{
+        padding: 0 2rem;
+    }
+  .navBottom {
+    display: none;
+  }
+  .navBottom__active{
+    display:block;
+ 
+   
+  }
+  .navBottom__active>ul{
+    flex-direction: column;
+    gap: 2rem;
+    text-align: start;
+    font-size: 3.2rem;
+ 
+   
+  }
+ 
+
+
+  .navTop__left__language,
+  .navTop__right {
+    display: none;
+  }
+  .navTop__logo {
+    order: -1;
+  }
+  .navTop__right_menuIcon {
+    display: block;
+  }
+  .footer__right {
+    flex-wrap: wrap;
+  }
+  .footer {
+    grid-template-columns: auto ;
+  }
+}
+@media (max-width: 500px) {
+  .navTop__right {
+    display: none;
+  }
+  .footer__logo {
+    width: 15.7rem;
+  }
+  .footer__text,.footer__number,.footer__email{
+    width: 100%;
+    text-align: start;
+  }
+
+}
+.link{
+  text-decoration: none;
+}
+.active_link{
+  text-decoration: none;
+  position: relative;
+}
+.active_link::after{
+  content: '';
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--color-yellow-grey);
+  position: absolute;
+  top: 3rem;
+  left: 0;
+ 
+  
+  
+}

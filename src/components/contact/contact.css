@@ -1,0 +1,45 @@
+.contact{
+    display: flex;
+    column-gap: 13.7rem;
+    row-gap: 5rem;
+}
+.contact__form {
+  
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact__form > div {
+    width: 44.7rem;
+ 
+    align-items: center;
+  }
+.contact__right__image{
+    max-width: 68rem;
+
+}
+.contact textarea{
+    height: 13.6rem;
+}
+@media(max-width:1000px){
+    .contact{
+        column-gap: 2rem;
+    }
+
+}
+@media(max-width:768px){
+    
+    
+    .contact__left{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+       flex-wrap: wrap;
+      
+    }
+    .contact__form>div{
+        width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+.discount__bacground{
+    display: flex;
+    justify-content: center;
+   
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.discount__content {
+    gap: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.shopNowButton{
+    width: 33rem;
+}
+.discount__content h1{
+font-size: 6.4rem;
+color: var(--color-white);
+}
+.discount__content p{
+
+    max-width: 44.5rem;
+    text-align: center;
+    color: var(--color-white);
+}
+@media(max-width:560px){
+    .discount__content{
+        padding: 2rem;
+      
+        }
+
+    .discount__content h1{
+        
+        font-size: 2.4rem;
+        color: var(--color-white);
+        }
+        .shopNowButton{
+            width: 100%;
+        }
+       
+}

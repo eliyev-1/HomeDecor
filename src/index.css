@@ -1,0 +1,139 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  box-sizing: border-box;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+#root {
+  background-color: var(--color-white-grey);
+  color: var(--color-black-light);
+  font-size: 1.6rem;
+  font-family: var(--my--font2);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 1rem;
+}
+:root {
+  --my--font1: "GFS Didot", serif;
+  --my--font2: "Raleway", sans-serif;
+}
+:root {
+  --color-white: white;
+
+  --color-white-grey: #eae6df;
+  --color-black: black;
+  --color-black-light: #2d2d2b;
+  --color-grey: #717171;
+  --color-yellow-grey: #b8926a;
+  --color-brown: #a5825d;
+  --color--grey-light: #d4c8be;
+  --color-black-transparent:rgba(0,0,0,0.3);
+}
+
+.container {
+  max-width: 132.4rem;
+  margin: 0 auto;
+}
+.breadCrumbs {
+  margin-top: 6rem;
+ 
+}
+
+.breadCrumbs__link {
+  color: var(--color-black-light);
+  text-decoration: none;
+  font-style: normal;
+  opacity: 0.5;
+}
+.component__header{
+  margin-bottom: 5.5rem;
+  margin-top: 5.5rem;
+ justify-content: start;
+
+}
+.component__header h1 {
+  font-size: 6.4rem;
+ justify-content: start;
+  font-family: var(--my--font1);
+}
+@media (max-width: 1364px) {
+  .breadCrumbs,
+  .component__header {
+    padding: 0 2rem;
+  }
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .component__header {
+    width: 100%;
+
+    line-height: 7.2rem;
+  }
+}
+@media (max-width: 1000px) {
+  .component__header h1 {
+    font-size: 2.4rem;
+  
+   
+  }
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+  color: var(--color-black-light);
+}
+button {
+  cursor: pointer;
+
+  width: 100%;
+  height: 5.3rem;
+  background-color: var(--color-yellow-grey);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+button:hover {
+  width: 100%;
+  background-color: var(--color-brown);
+
+  z-index: 100;
+}
+input[type="text"],input[type="number"],
+input[type="password"],input[type="date"],
+textarea {
+  color: var(--color-yellow-grey);
+  border-radius: 1rem;
+  border: 1px solid var(--color--grey-light);
+  background-color: var(--color-white-grey);
+  width: 100%;
+  height: 5.4rem;
+  padding-left: 3rem;
+}
+textarea {
+  padding-top: 1rem;
+}
+h1{
+font-family: var(--my--font1);
+}

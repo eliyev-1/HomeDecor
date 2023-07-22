@@ -1,0 +1,13 @@
+.slideItem{
+    width: 20rem;
+}
+.slider-arrows{
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.slider-arrow-right,.slider-arrow-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

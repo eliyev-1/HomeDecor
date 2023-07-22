@@ -1,0 +1,17 @@
+.accountLayout{
+   width: 100%;
+margin-top: 5rem;
+    display: flex;
+    gap: 13.7rem
+
+}
+.accountLayout__right{
+    width: 100%;
+}
+@media(max-width:900px){
+    .accountLayout{
+        flex-direction: column;
+        row-gap: 4rem;
+    }
+
+}

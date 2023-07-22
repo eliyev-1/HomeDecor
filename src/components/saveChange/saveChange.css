@@ -1,0 +1,11 @@
+.SaveChange__form{
+    
+    flex-direction: column;
+    gap: 1rem;
+}
+.SaveChange__form>div{
+    width: 44.7rem;
+}
+.saveChangeButton{
+    margin-top: 1rem;
+}

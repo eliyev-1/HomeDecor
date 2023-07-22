@@ -1,0 +1,122 @@
+{
+  "collections": [
+   {
+    "id": 1,
+    "name": "BEDROOM",
+    "img": "https://www.thespruce.com/thmb/vf_MEDifLRzzmQNjMyUDR1FGA14=/3000x0/filters:no_upscale():max_bytes(150000):strip_icc()/tips-for-decorating-a-beautiful-bedroom-1976169-hero-e960fbb8311c4b9b875a1813962d34eb.jpg"
+   },
+   {
+    "id": 2,
+    "name": "LIVING ROOM",
+    "img": "https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg"
+   },
+   {
+    "id": 3,
+    "name": "KITHCEN",
+    "img": "https://st.hzcdn.com/simgs/pictures/kitchens/kithcen-designs-in-israel-pashtut-kitchens-img~63e16bbc02dd4863_4-2074-1-5f28313.jpg"
+   },
+   {
+    "id": 4,
+    "name": "LIBRARY",
+    "img": "https://www.thespruce.com/thmb/mUIis2CT0RiRogwewJZ3vxFv3sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-create-a-home-library-1313432-hero-249b7a7d72424adfb1f57b8d585235b4.jpg"
+   },
+   {
+    "id": 5,
+    "name": "OFFICE",
+    "img": "https://media.strongproject.com/homepage/633091a99ea9a.desktop.big.jpg"
+   },
+   {
+    "id": 6,
+    "name": "LAUNDRY ROOM",
+    "img": "https://www.thespruce.com/thmb/4JZl0f_Bmqhi6s89U57wO57-Wmg=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/inspiring-laundry-room-design-ideas-4098507-hero-253149ae1c9542058c5d39b19896ae88.jpg"
+   },
+   {
+    "id": 7,
+    "name": "GUEST ROOM",
+    "img": "https://www.thespruce.com/thmb/2_Q52GK3rayV1wnqm6vyBvgI3Ew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/put-together-a-perfect-guest-room-1976987-hero-223e3e8f697e4b13b62ad4fe898d492d.jpg"
+   },
+   {
+    "id": 8,
+    "name": "FAMILY ROOM",
+    "img": "https://www.southernliving.com/thmb/5xKKpaus6XTcYapq00v1Q-ZbUn4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2436301_Potom00041-2000-a3e76492d532473d943617d808606222.jpg"
+   },
+   {
+    "id": 9,
+    "name": "BATHROOM",
+    "img": "https://www.thespruce.com/thmb/-rwcC9Gkkuo4l9O8JyHatBXpYiU=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d.jpg"
+   }
+  ],
+  "header":{
+
+    "headerText":"THE FURNITURE THAT DEFINES YOU",
+    "headerTittle":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatumSHOP NOW",
+    "headerImg":"https://www.thespruce.com/thmb/vf_MEDifLRzzmQNjMyUDR1FGA14=/3000x0/filters:no_upscale():max_bytes(150000):strip_icc()/tips-for-decorating-a-beautiful-bedroom-1976169-hero-e960fbb8311c4b9b875a1813962d34eb.jpg",
+    "price":"326"
+  },
+  "products": [
+    {
+     "id": 1,
+     "name": "Grayson Premium Grey Wash Nest of Tables 1",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 1",
+     "img": "https://www.thespruce.com/thmb/vf_MEDifLRzzmQNjMyUDR1FGA14=/3000x0/filters:no_upscale():max_bytes(150000):strip_icc()/tips-for-decorating-a-beautiful-bedroom-1976169-hero-e960fbb8311c4b9b875a1813962d34eb.jpg",
+     "price":"456"
+    },
+    {
+     "id": 2,
+     "name": "Grayson Premium Grey Wash Nest of Tables 2",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 2",
+     "img": "https://www.bhg.com/thmb/dgy0b4w_W0oUJUxc7M4w3H4AyDo=/1866x0/filters:no_upscale():strip_icc()/living-room-gallery-shelves-l-shaped-couch-ELeyNpyyqpZ8hosOG3EG1X-b5a39646574544e8a75f2961332cd89a.jpg",
+     "price":"245"
+    },
+    {
+     "id": 3,
+     "name": "Grayson Premium Grey Wash Nest of Tables 3",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 3",
+     "img": "https://st.hzcdn.com/simgs/pictures/kitchens/kithcen-designs-in-israel-pashtut-kitchens-img~63e16bbc02dd4863_4-2074-1-5f28313.jpg",
+     "price":"124"
+    },
+    {
+     "id": 4,
+     "name": "Grayson Premium Grey Wash Nest of Tables 4",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 4",
+     "img": "https://www.thespruce.com/thmb/mUIis2CT0RiRogwewJZ3vxFv3sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-create-a-home-library-1313432-hero-249b7a7d72424adfb1f57b8d585235b4.jpg",
+     "price":"653"
+    },
+    {
+     "id": 5,
+     "name": "Grayson Premium Grey Wash Nest of Tables 5",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 5",
+     "img": "https://media.strongproject.com/homepage/633091a99ea9a.desktop.big.jpg",
+     "price":"890"
+    },
+    {
+     "id": 6,
+     "name": "Grayson Premium Grey Wash Nest of Tables 6",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 6",
+     "img": "https://www.thespruce.com/thmb/4JZl0f_Bmqhi6s89U57wO57-Wmg=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/inspiring-laundry-room-design-ideas-4098507-hero-253149ae1c9542058c5d39b19896ae88.jpg",
+     "price":"436"
+    },
+    {
+     "id": 7,
+     "name": "Grayson Premium Grey Wash Nest of Tables 7",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 7",
+     "img": "https://www.thespruce.com/thmb/2_Q52GK3rayV1wnqm6vyBvgI3Ew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/put-together-a-perfect-guest-room-1976987-hero-223e3e8f697e4b13b62ad4fe898d492d.jpg",
+     "price":"287"
+    },
+    {
+     "id": 8,
+     "name": "Grayson Premium Grey Wash Nest of Tables 8",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 8",
+     "img": "https://www.southernliving.com/thmb/5xKKpaus6XTcYapq00v1Q-ZbUn4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2436301_Potom00041-2000-a3e76492d532473d943617d808606222.jpg",
+     "price":"345"
+    },
+    {
+     "id": 9,
+     "name": "Grayson Premium Grey Wash Nest of Tables 9",
+     "tittle":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 10",
+     "img": "https://www.thespruce.com/thmb/-rwcC9Gkkuo4l9O8JyHatBXpYiU=/2048x0/filters:no_upscale():max_bytes(150000):strip_icc()/master-bathroom-design-ideas-4129362-hero-d896a889451341dfaa59c5b2beacf02d.jpg",
+     "price":"678"
+    }
+   ]
+ 
+}
